@@ -1,0 +1,18 @@
+{
+  "name": "localization-plugin-talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
+    "webpack": "5.0.0-beta.14",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-sources": "2.0.0-beta.8"
+  },
+  "scripts": {
+    "start": "nodemon -w webpack.config.js -w lib -x \"yarn webpack-dev-server\"",
+    "build": "webpack --mode production"
+  }
+}
