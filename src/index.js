@@ -1,4 +1,4 @@
-// import startup from "./app";
-const { default: startup } = await import("./app");
+import startup from "./app";
+// const { default: startup } = await import("./app");
 
 export default startup();
